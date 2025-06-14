@@ -1,0 +1,477 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #FFFFFF;
+}
+
+.navbar-container {
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    height: 10vh;
+    border: 1.5px solid rgba(128, 128, 128, 0.548);
+}
+
+@media screen and (max-width: 320px){
+  .navbar-container {
+    background-color: white;
+    position: fixed;
+    height: 10vh;
+  }
+}
+
+.yanmi-logo {
+    position: fixed;
+    left: 80px;
+    color: #1f1235;
+}
+
+@media screen and (max-width: 320px){
+  .yanmi-logo {
+    left: 20px;
+    position: fixed;
+    font-size: 20px;
+  }
+}
+
+.novel-logo {
+    position: fixed;
+    top: 28px;
+    left: 180px;
+    color: #1f1235;
+}
+
+@media screen and  (max-width: 320px){
+  .novel-logo {
+    position: fixed;
+    left: 47px;
+    font-size: 20px;
+    top: 18px;
+  }
+}
+
+.search-navbar {
+    position: fixed;
+    left: 300px;
+    top: 18px;
+    height: 40px;
+    border-radius: 8px;
+    padding: 8px;
+    background-color: pink;
+}
+
+@media screen and (max-width: 320px){
+  .search-navbar {
+    left: 120px;
+    width: 140px;
+    height: 30px;
+    top: 10px;
+  }
+}
+
+.search-navbar:hover {
+    border: 2px solid blueviolet;
+}
+
+.HAC {
+    position:fixed;
+    left: 900px;
+    top: 18px;
+    font-size: 25px;
+    padding: 0px 20px;
+}
+
+@media screen and (max-width: 476px){
+  .HAC {
+    position: fixed;
+    left: 260px;
+    padding: none;
+    font-size: 15px;
+  }
+}
+
+a {
+    padding: 8px;
+    text-decoration: none;
+    color: black;
+}
+
+@media screen and (max-width: 476px){
+  a {
+    padding: 2px;
+  }
+}
+
+a:hover {
+    text-decoration:underline;
+}
+
+.content1 {
+    background-color: red;
+    width: 580px;
+    height: 600px;
+    position: relative;
+    top: 110px;
+    left: 220px;
+    border: 1px solid transparent;
+}
+
+@media screen and (max-width: 476px){
+  .content-1 {
+    background-color: red;
+    position: relative;
+    left: 20px;
+  }
+}
+
+.h2-content1 {
+    font-size: 22px;
+    font-style:unset;
+    color: #1f1235;
+}
+
+@media screen and (max-width: 476px) {
+  .h2-content1 {
+    font-size: 20px;
+    left: 20px;
+  }
+}
+
+.profil-author {
+    width: 35px;
+    height: 35px;
+    border-radius: 100px;
+    position: relative;
+    top: 12px;
+}
+
+.name-author {
+    position: relative;
+    left: 43px;
+    top: -20px;
+    color: rgb(71, 70, 70);
+}
+
+.nilai-stories {
+    font-size: 18px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: gray;
+}
+
+/* From Uiverse.io by Yaya12085 */ 
+.ui-like {
+  --icon-size: 24px;
+  --icon-secondary-color: rgb(192, 185, 185);
+  --icon-hover-color: rgb(211, 205, 205);
+  --icon-primary-color: rgb(230, 26, 26);
+  --icon-circle-border: 1px solid var(--icon-primary-color);
+  --icon-circle-size: 35px;
+  --icon-anmt-duration: 0.3s;
+}
+
+.like {
+    background-color: rgb(255, 255, 255);
+    border-radius: 3px;
+    width: 30px;
+    height: 10px;
+    padding: 8px;
+}
+
+.ui-like input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  display: none;
+}
+
+.ui-like .like {
+  width: var(--icon-size);
+  height: auto;
+  fill: var(--icon-secondary-color);
+  cursor: pointer;
+  -webkit-transition: 0.2s;
+  -o-transition: 0.2s;
+  transition: 0.2s;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  -webkit-transform-origin: top;
+  -ms-transform-origin: top;
+  transform-origin: top;
+}
+
+.like::after {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  -webkit-box-shadow: 0 30px 0 -4px var(--icon-primary-color),
+    30px 0 0 -4px var(--icon-primary-color),
+    0 -30px 0 -4px var(--icon-primary-color),
+    -30px 0 0 -4px var(--icon-primary-color),
+    -22px 22px 0 -4px var(--icon-primary-color),
+    -22px -22px 0 -4px var(--icon-primary-color),
+    22px -22px 0 -4px var(--icon-primary-color),
+    22px 22px 0 -4px var(--icon-primary-color);
+  box-shadow: 0 30px 0 -4px var(--icon-primary-color),
+    30px 0 0 -4px var(--icon-primary-color),
+    0 -30px 0 -4px var(--icon-primary-color),
+    -30px 0 0 -4px var(--icon-primary-color),
+    -22px 22px 0 -4px var(--icon-primary-color),
+    -22px -22px 0 -4px var(--icon-primary-color),
+    22px -22px 0 -4px var(--icon-primary-color),
+    22px 22px 0 -4px var(--icon-primary-color);
+  border-radius: 50%;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+}
+
+.like::before {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  border: var(--icon-circle-border);
+  opacity: 0;
+}
+
+/* actions */
+
+.ui-like:hover .like {
+  fill: var(--icon-hover-color);
+}
+
+.ui-like input:checked + .like::after {
+  -webkit-animation: circles var(--icon-anmt-duration)
+    cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+  animation: circles var(--icon-anmt-duration)
+    cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+  -webkit-animation-delay: var(--icon-anmt-duration);
+  animation-delay: var(--icon-anmt-duration);
+}
+
+.ui-like input:checked + .like {
+  fill: var(--icon-primary-color);
+  -webkit-animation: like var(--icon-anmt-duration) forwards;
+  animation: like var(--icon-anmt-duration) forwards;
+  -webkit-transition-delay: 0.3s;
+  -o-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
+
+.ui-like input:checked + .like::before {
+  -webkit-animation: circle var(--icon-anmt-duration)
+    cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+  animation: circle var(--icon-anmt-duration)
+    cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+  -webkit-animation-delay: var(--icon-anmt-duration);
+  animation-delay: var(--icon-anmt-duration);
+}
+
+@-webkit-keyframes like {
+  50% {
+    -webkit-transform: scaleY(0.6);
+    transform: scaleY(0.6);
+  }
+
+  100% {
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
+  }
+}
+
+@keyframes like {
+  50% {
+    -webkit-transform: scaleY(0.6);
+    transform: scaleY(0.6);
+  }
+
+  100% {
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
+  }
+}
+
+@-webkit-keyframes circle {
+  from {
+    width: 0;
+    height: 0;
+    opacity: 0;
+  }
+
+  90% {
+    width: var(--icon-circle-size);
+    height: var(--icon-circle-size);
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes circle {
+  from {
+    width: 0;
+    height: 0;
+    opacity: 0;
+  }
+
+  90% {
+    width: var(--icon-circle-size);
+    height: var(--icon-circle-size);
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes circles {
+  from {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+
+  40% {
+    opacity: 1;
+  }
+
+  to {
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+    opacity: 0;
+  }
+}
+
+@keyframes circles {
+  from {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+
+  40% {
+    opacity: 1;
+  }
+
+  to {
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+    opacity: 0;
+  }
+}
+
+.icon-tiktok {
+    width: 25px;
+    height: 25px;
+    transition: .3s
+}
+
+.icon-tiktok:hover{
+    background-color: gray;
+    transition: .3s;
+    border-radius: 8px;
+}
+
+.icon-instagram {
+    width: 25px;
+    height: 25px;
+    transition: .3s;
+}
+
+.icon-instagram:hover {
+    background-color: gray;
+    transition: .3s;
+    border-radius: 8px;
+}
+
+.ryan-sumi {
+    width: 120px;
+    height: 180px;
+    position: relative;
+    top: 20px;
+    border-radius: 6px;
+    border: 1px solid black;
+}
+
+.ryan-sumi2 {
+  position: relative;
+  left: -10px;
+}
+
+.judul-ryan-sumi {
+    position: relative;
+    left: 138px;
+    top: -166px;
+}
+
+.author-ryan-sumi {
+    position: relative;
+    left: 138px;
+    top: -160px;
+    font-size: 20px;
+    color:rgb(119, 116, 116);
+}
+
+.view-ryan-sumi {
+    width: 17px;
+    height: 17px;
+    position: relative;
+    left: 138px;
+    top: -130px;
+    color: rgb(99, 95, 95);
+}
+
+.value-view {
+    font-size: 13px;
+    position: relative;
+    left: 157px;
+    top: -150px;
+}
+
+.vote-ryan-sumi {
+    width: 17px;
+    height: 17px;
+    position: relative;
+    left: 200px;
+    top: -168px;
+}
+
+.value-vote {
+    font-size: 13px;
+    position: relative;
+    left: 219.5px;
+    top: -186px;
+}
+
+.parts-ryan-sumi {
+    width: 13px;
+    height: 13px;
+    position: relative;
+    left: 270px;
+    top: -202px;
+}
+
+.value-parts {
+    font-size: 13px;
+    position: relative;
+    left: 288px;
+    top: -220px;
+}
+
+.deskripsi-ryan-sumi {
+    position: relative;
+    left: 138px;
+    top: -180px;
+}

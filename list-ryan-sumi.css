@@ -1,0 +1,164 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+.navbar-container {
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    height: 10vh;
+    border: 1.5px solid rgba(128, 128, 128, 0.548);
+}
+
+.yanmi-logo {
+    position: fixed;
+    left: 80px;
+}
+
+.novel-logo {
+    position: fixed;
+    top: 28px;
+    left: 180px;
+}
+
+.search-navbar {
+    position: fixed;
+    left: 300px;
+    top: 18px;
+    height: 40px;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+.search-navbar:hover {
+    border: 2px solid blueviolet;
+}
+
+.HAC {
+    position:fixed;
+    left: 900px;
+    top: 18px;
+    font-size: 25px;
+    padding: 0px 20px;
+}
+
+a {
+    padding: 8px;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration:underline;
+}
+
+.judul-book {
+    width: 100%;
+    height: 410px;
+    background-color: transparent;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.788) 0px 8px 16px -8px;
+}
+
+.book-ryan-sumi {
+    width: 180px;
+    height: 280px;
+    position: relative;
+    left: 384px;
+    top: 92px;
+    border-radius: 22px;
+    border: 1px solid black;
+}
+
+.judul-list-ryan-sumi {
+    position: relative;
+    left: 600px;
+    top: -300px;
+    font-size: 23px;
+    border: 1px solid black;
+    height: 280px;
+    width: 400px;
+}
+
+.view-ryan-sumi {
+    width: 17px;
+    height: 17px;
+    position: relative;
+    top: 35px;
+    left: 20px;
+}
+
+.reads {
+    font-size: small;
+    color: gray;
+    position: relative;
+    left: 40px;
+    top: 12px;
+}
+
+.value-view {
+    position: relative;
+    top: -440px;
+    left: 635px;
+    font-size: 17px;
+}
+
+.garis1 {
+    color: gray;
+    position: relative;
+    left: 99px;
+    font-size: 50px;
+    top: -20px;
+}
+
+.vote-ryan-sumi {
+    width: 17px;
+    height: 17px;
+    position: relative;
+    left: 143px;
+    top: -65px;
+}
+
+.vote {
+    font-size: small;
+    color: gray;
+    position: relative;
+    left: 165px;
+    top: -85px;
+}
+
+.value-vote {
+
+}
+
+.garis2 {
+    color: gray;
+    position: relative;
+    left: 238px;
+    top: -121px;
+    font-size: 50px;
+}
+
+.parts-ryan-sumi {
+    width: 12px;
+    height: 12px;
+    position: relative;
+    left: 280px;
+    top: -165px;
+}
+
+.parts {
+    font-size: small;
+    color: gray;
+    position: relative;
+    left: 300px;
+    top: -185px;
+}
+
+.value-parts {
+    
+}
